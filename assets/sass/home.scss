@@ -1,0 +1,59 @@
+.home{
+    .home-container{
+        margin-top: 130px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .logo-od{
+        position: absolute;
+        right: -50px;
+        top: 50%;
+        transform: translate(27%, -54%);
+    }
+
+    .buttons{
+        margin: 50px 0;
+
+        a{
+            padding: 15px 30px;
+            margin-right: 30px;
+            font-size: 18px;
+            color: $white-color;
+            border-radius: 30px;
+            box-shadow: 0px 3px 1px $primary-color;
+            transition: all .45s ease;
+       
+            &:hover{
+                background: $primary-color;
+            }
+        }
+    }
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    h1{
+        font-size: $h1-font;
+        font-weight: 700;
+        line-height: 1.4;
+        color: $white-color; 
+    }
+
+    p{
+        font-size: $p-font;
+        line-height: 1.8;
+        color: $white-color;
+        margin: 40px 0px 0;
+    }
+
+    p:nth-child(3){
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        margin: 15px 0px 0;
+    }
+}

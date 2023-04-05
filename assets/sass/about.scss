@@ -1,0 +1,67 @@
+.about{
+    .about-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background: $dark-200-color;
+        padding: 40px 0;
+        border: 2px solid $dark-400-color;
+
+        .about-img{
+            text-align: center;
+
+             img{
+                margin-top: 30px;
+                height: 600px;
+            }
+        }
+
+        .about-text{
+            margin: 80px 20px 0 0;
+
+            h2{
+                font-size: $h2-font;
+                font-weight: 700;
+                letter-spacing: 1px;
+                margin: 10px 0;
+            }
+
+            h4{
+                font-size: $h4-font;
+                font-weight: 500;
+            }
+
+            h3{
+                font-size: $h3-font;
+                font-weight: 700;
+                letter-spacing: 1px;
+                margin: 10px 0;
+            }
+
+            p{
+                font-size: 1.8rem;
+                line-height: 1.6;
+                margin-top: 30px;
+            }
+        }
+
+        .contact-icons{
+            margin-top: 50px;
+
+            a{
+                padding: 20px;
+                border: 2px solid $dark-400-color;
+                border-radius: 12px;
+                font-size: 3.2rem;
+                margin-right: 15px;
+                color: $primary-color;
+                transition: all .55s ease-in-out;
+                
+                &:hover{
+                    border: 2px solid $primary-color;
+                }
+            }
+
+        }
+    }
+
+}

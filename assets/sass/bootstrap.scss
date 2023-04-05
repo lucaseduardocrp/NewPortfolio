@@ -1,0 +1,51 @@
+@import "./variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo';
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body{
+    overflow-x: hidden;
+    background: $dark-color;
+    color: $white-color;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    padding: 120px 12% 100px;
+}
+
+span{
+    color: $primary-color;
+}
+
+/*----------------Selection Text Section----------------*/
+
+::selection{
+    background: $primary-color;
+    color: $dark-color;
+}
+
+/*----------------Scrollbar Design----------------*/
+
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-thumb{
+    background: $primary-color;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-track{
+    background: $dark-color;
+}
