@@ -1,0 +1,52 @@
+.skills{
+    background: $dark-200-color;
+
+    .skills-container{
+        text-align: center;
+
+        h2{
+            font-size: $h2-font;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 10rem;
+        }
+
+        .skills-grid{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5rem;
+
+            .box{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 13rem;
+                border: 2px solid $dark-400-color;
+                border-bottom: 4px solid $primary-color;
+                border-top-left-radius: 30px;
+                background:  $dark-color;
+                transition: all .30s ease;
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+                
+
+                p{
+                    font-size: 1.6rem;
+                    color: $white-color;
+                    margin-top: 1.8rem;
+                }
+                
+                img{
+                    padding: 1.5rem;
+                    width: 8.5rem;
+                    height: 10rem;
+                }
+            }
+        }
+    }
+}
