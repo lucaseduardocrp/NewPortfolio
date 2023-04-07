@@ -6,7 +6,8 @@ header{
     left: 0;
     z-index: 1000;
     background: $dark-color;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid transparent;    
+    transition: .5s;
 }
 
 nav{
