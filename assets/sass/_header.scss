@@ -26,14 +26,13 @@ nav{
   
         li{
             margin-left: 40px;
-        }
-
-        li a{
+            
+            a{
             position: relative;
             font-size: 19px;
             font-weight: 600;
             color: $grey-color;
-
+    
             &::before{
                 content: attr(data-text);
                 position: absolute;
@@ -41,12 +40,14 @@ nav{
                 overflow: hidden;
                 transition: all .45s ease;
             }
-
+    
             &:hover::before{
                 width: 100%;
                 color: $primary-color;
             }
         }
+        }
+
         
     }
 
