@@ -1,0 +1,28 @@
+.end{
+    padding: 20px 12%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background: $dark-200-color;
+}
+.last-text p{
+    color: $grey-color;
+    font-size: 1.4rem;
+}
+.top{
+
+    i{
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 2rem;
+    color: $white-color;
+    background: $primary-color;
+    
+        &:hover{
+            background: $white-color;
+            color: $primary-color;
+        }
+    }
+}

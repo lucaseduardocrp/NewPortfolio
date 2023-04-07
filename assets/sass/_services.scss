@@ -1,56 +1,62 @@
-.main-text{
-    text-align: center;
+.service{
+    margin-bottom: 4rem;
     
-    h4{
-       color: $h4-font;
-       font-size: 20px;
-       margin-bottom: 15px;
-       margin-top: 20px;
-    }
-    
-     h2{
-       margin-top: 15px;
-       font-size: $h2-font;
-       line-height: 1;
-    }
-}
-.services-content{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    margin-top: 8rem;
-}
-
-.service-box{
-    width: 30%;
-    background: $dark-200-color;
-    padding: 35px 45px;
-    border: 1px solid $dark-400-color;
-    border-radius: 8px;
-    transition: all .45s ease;
-    
-    h3{
-        font-size: 3rem;
-        font-weight: 600;
+    .main-text{
+        text-align: center;
+        
+        h4{
+        color: $h4-font;
+        font-size: 20px;
         margin-bottom: 15px;
+        margin-top: 20px;
+        }
+        
+        h2{
+        margin-top: 15px;
+        font-size: $h2-font;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 1;
+        }
     }
-
-    p{
-        font-size: $p-font;
-        line-height: 1.8;
-        margin-bottom: 25px;
+    .services-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        margin-top: 8rem;
     }
     
-    &:hover{
-        transform: translateY(-8px);
-        cursor: pointer;
-        box-shadow: 1px 1px 8px $primary-color;
+    .service-box{
+        width: 30%;
+        background: $dark-200-color;
+        padding: 35px 45px;
+        border: 1px solid $dark-400-color;
+        border-radius: 8px;
+        transition: all .45s ease;
+        
+        h3{
+            font-size: 3rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+    
+        p{
+            font-size: $p-font;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+        
+        &:hover{
+            transform: translateY(-8px);
+            cursor: pointer;
+            box-shadow: 1px 1px 8px $primary-color;
+        }
     }
-}
-.s-icons i{
-    font-size: 3.2rem;
-    margin-bottom: 20px;
+    .s-icons i{
+        font-size: 3.2rem;
+        margin-bottom: 20px;
+    }
 }
