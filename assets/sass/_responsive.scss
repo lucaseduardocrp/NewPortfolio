@@ -1,14 +1,59 @@
 @media (max-width: 1550px) {
+    header{
+        padding: 0 5%;
+    }
+    section{
+        padding: 60px 5%;
+    }
     .home {
         .home-text{
             margin-right: 320px;
         }
         
-        .logo-od img{
-        width: 480px;
-        object-fit: cover;
+        .logo-od {
+            transform: translate(-17%, -79%);
+
+            img{
+            width: 340px;
+            object-fit: cover;
+            }
         }
     }
+    .about{
+            .about-text p{
+                margin: 20px 0 40px 0;
+            }
+        
+            .about-container .social-icons a{ 
+            font-size: 2.5rem;
+            padding: 15px;
+        } 
+    }    
 }
-    
 
+@media (max-width: 1100px){
+    :root{
+        --h1-font: 3.3rem;
+        --h2-font: 3.3rem;
+        --h3-font: 1.8rem;
+        --h4-font: 1.8rem;
+        --p-font: 1.8rem;
+    }
+
+   header{
+       nav{
+           .nav-bar{
+               display: none;
+           }
+       }
+
+       .mobile-menu i{
+        display: block;
+       }
+
+   }
+}
+
+@media (max-width: 920px){
+
+}

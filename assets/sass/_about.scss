@@ -7,48 +7,50 @@
 
         .about-img{
             text-align: center;
+            margin-top: 20px;
 
-             img{
-                margin-top: 30px;
-                height: 600px;
+            img{
+                height: 580px;
             }
-        }
+        }   
 
         .about-text{
-            margin: 40px 30px 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 40px 30px 0 0;
 
-            h2{
-                font-size: var(--h2-font);
-                font-weight: 700;
-                letter-spacing: 1px;
-                margin: 10px 0;
-            }
-
-            h4{
-                font-size: var(--h4-font);
-                font-weight: 500;
-            }
-
-            h3{
-                font-size: var(--h3-font);
-                font-weight: 700;
-                letter-spacing: 1px;
-                margin: 10px 0;
-            }
-
-            p{
-                font-size: 1.8rem;
-                line-height: 1.6;
-                margin-top: 30px;
-            }
+        h2{
+            font-size: var(--h2-font);
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin: 10px 0;
         }
 
-        .social-icons{
-            margin-top: 70px;
+        h4{
+            font-size: var(--h4-font);
+            font-weight: 500;
+        }
 
+        h3{
+            font-size: var(--h3-font);
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin: 10px 0;
+        }
+
+        p{
+            font-size: 1.8rem;
+            line-height: 1.6;
+            margin: 20px 0 45px 0;
+        }
+    }
+    
+        .social-icons{
             a{
                 background-color: $dark-color;
-                padding: 20px;
+                padding: 15px;
                 border: 2px solid $dark-400-color;
                 border-radius: 12px;
                 font-size: 3.2rem;
@@ -60,8 +62,6 @@
                     border: 2px solid $primary-color;
                 }
             }
-
         }
     }
-
 }
