@@ -49,8 +49,9 @@
     
         .social-icons{
             a{
+                display: inline-block;
                 background-color: $dark-color;
-                padding: 15px;
+                padding: 20px;
                 border: 2px solid $dark-400-color;
                 border-radius: 12px;
                 font-size: 3.2rem;
