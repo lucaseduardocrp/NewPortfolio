@@ -1,40 +1,14 @@
-@import "./variables";
-
-@media (max-width: 1600px) {
-    section{
-        padding: 130px 3% 60px;
-    }
-    .home{
-        .logo-od{
-            img{
-                width: 450px;
-                height: 433px;
-            }
+@media (max-width: 1550px) {
+    .home {
+        .home-text{
+            margin-right: 320px;
+        }
+        
+        .logo-od img{
+        width: 480px;
+        object-fit: cover;
         }
     }
 }
-
-@media (max-width: 1400px) {
-    header{
-        padding: 20px 3%;
-    }
-
-    section{
-        padding: 80px 3% 60px;
-    }
-
-    .home{
-        .logo-od{
-            img{
-                width: 400px;
-                height: 383px;
-            }
-        }
-    }
-}
-
-
-
-
-
+    
 

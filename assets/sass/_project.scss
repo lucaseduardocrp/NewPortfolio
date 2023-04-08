@@ -3,7 +3,7 @@
     text-align: center;
 
     h2{
-        font-size: $h2-font;
+        font-size: var(--h2-font);
         font-weight: 700;
         letter-spacing: 1px;
         margin-bottom: 10rem;
@@ -57,7 +57,7 @@
             transition: .5s;
             
             p{
-                font-size: $p-font;
+                font-size: var(--p-font);
                 word-spacing: 2px;
                 margin: 1rem;
             }

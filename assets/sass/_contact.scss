@@ -6,17 +6,17 @@
 
     h4{ 
     margin: 18px 0;
-    font-size: $h4-font;
+    font-size: var(--h4-font);
     }
     
     h2{
-        font-size: $h2-font;
+        font-size: var(--h2-font);
         line-height: 1;
     }
     
     p{
         color: $grey-color;
-        font-size: $p-font;
+        font-size: var(--p-font);
         line-height: 1.8;
         margin-bottom: 30px;
     }
@@ -30,7 +30,7 @@
         
         a{
             display: block;
-        color: $grey-color;
+            color: $grey-color; 
             font-size: 1.8rem;
             transition: all .45s ease;
    

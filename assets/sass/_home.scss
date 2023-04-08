@@ -38,14 +38,14 @@
     justify-content: flex-start;
 
     h1{
-        font-size: $h1-font;
+        font-size: var(--h1-font);
         font-weight: 700;
         line-height: 1.4;
         color: $white-color; 
     }
 
     p{
-        font-size: $p-font;
+        font-size: var(--p-font);
         line-height: 1.8;
         color: $white-color;
         margin: 40px 0px 0;

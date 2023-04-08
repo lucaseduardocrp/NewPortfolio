@@ -5,9 +5,11 @@ $dark-color: #040405;
 $dark-200-color: #09090b;
 $dark-400-color: #101013;
 
-$h1-font: 4rem;
-$h2-font: 4rem;
-$h3-font: 2rem;
-$h4-font: 2rem;
-$p-font: 2rem;
+:root{
+    --h1-font: 4rem;
+    --h2-font: 4rem;
+    --h3-font: 2rem;
+    --h4-font: 2rem;
+    --p-font: 2rem;
+}
 
