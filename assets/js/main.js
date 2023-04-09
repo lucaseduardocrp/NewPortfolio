@@ -6,7 +6,7 @@ window.onload = function(){
     });
 }
 
-let menu = document.querySelector('.mobile-menu');
+let menu = document.querySelector('#mobile-menu');
 let navbar = document.querySelector('.navbar');
 
 menu.onclick = () => {
