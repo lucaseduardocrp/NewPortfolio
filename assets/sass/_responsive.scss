@@ -43,14 +43,40 @@
 @media (max-width: 940px){
     header{
         nav{
-            .nav-bar{
-                display: none;
+            .navbar{
+                position: absolute;
+                top: -600px;
+                right: 0;
+                left: 0;
+                display: flex;
+                flex-direction: column;
+                background: $dark-color;
+                border-bottom: 3px solid $dark-400-color;
+                text-align: left;
+                transition: all .45s ease;
+
+                a{
+                    display: block;
+                    margin: 17px;
+                    font-size: 20px;
+                    transition: all .45s ease;
+                    color: $white-color;
+
+                    &:hover{
+                        color: $primary-color;
+                    }
+                }
+            }
+
+            .navbar.open{
+                top: 100%;
+            }
+  
+            .mobile-menu{
+             display: block;
             }
         }
- 
-        .mobile-menu i{
-         display: block;
-        }
+        
     }
 
     .home{
@@ -85,10 +111,6 @@
         --h3-font: 1.6rem;
         --h4-font: 1.6rem;
         --p-font: 1.6rem;
-    }
-
-    section{
-        padding: 30px 5%;
     }
 
     .home{
