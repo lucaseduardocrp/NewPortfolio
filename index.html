@@ -7,6 +7,7 @@
 
     <!--Styles Links-->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,7 +45,7 @@
     <main>
         
         <!--Home Section-->
-        <section class="home" id="home">
+        <section class="home" id="home" data-aos="fade-up">
             <div class="home-container">
                 <div class="home-text">
                     <h1>Ajudando empresas, criando <br> 
@@ -68,7 +69,7 @@
         </section>
 
         <!--About Section-->
-        <section class="about" id="about">
+        <section class="about" id="about" data-aos="flip-right">
             <div class="about-container">
                 <div class="about-img">
                     <img src="./assets/img/about img.png">
@@ -95,7 +96,7 @@
         </section>
 
         <!--Skills Section-->
-        <section class="skills" id="skills">
+        <section class="skills" id="skills" data-aos="fade-right">
             <div class="skills-container">
                 <h2>Skills</h2>
                 <div class="skills-grid">
@@ -124,7 +125,7 @@
         </section>
 
         <!--Service Section-->
-        <section class="service" id="service">
+        <section class="service" id="service" data-aos="fade-left">
             <div class="main-text">
                 <h2><span>Meus</span> Serviços</h2>
                 <h4>Melhores Websites, <span>Melhores Experiências</span></h4>
@@ -158,7 +159,7 @@
         </section>
 
         <!--Project Section-->
-        <section class="projects" id="projects">
+        <section class="projects" id="projects" data-aos="flip-up">
             <h2>Projetos</h2>
             <div class="project-container">
                 
@@ -200,11 +201,11 @@
         </section>
 
          <!--Contact Section-->
-         <section class="contact" id="contact">
+         <section class="contact" id="contact" data-aos="zoom-in">
             <div class="contact-text">
                 <h2>Fale <span>Comigo!</span></h2>
                 <h4>Se você tem alguma ideia na sua mente.</h4>
-                <p>Eu sou um Desenvolvedor web Front-End - Web Mobile - Web Designer com interfaces dinâmicas e interativas para a melhor experiência do usuário.</p>
+              
                 <div class="list">
                     <ul>
                         <li><a href="https://web.whatsapp.com/send?phone=5521985970787">(21) 98597-0787</a></li>
@@ -220,19 +221,19 @@
                     <a href="https://web.whatsapp.com/send?phone=5521985970787" target="_blank"><i class='bx bxl-whatsapp'></i></a>
                 </div>
             </div>
-
-            <div class="contact-form">
-                <form action="https://formsubmit.co/lucaseduardocrp@gmail.com" method="POST">
-                    <input type="name" name="name" placeholder="Seu Nome" required>
-                    <input type="email" name="email" placeholder="Seu Email" required>
-                    <input type="tel" name="tel" placeholder="Seu Número" required>
-                    <textarea name="message" name="message" cols="30" rows="10" placeholder="Como posso te ajudar" required></textarea>
-                    <input type="submit" value="Enviar" class="submit" required>
-
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://lucaseduardocrp.github.io/thanks-page/">
-                </form>
-            </div>
+                
+                <div class="contact-form">
+                    <form action="https://formsubmit.co/lucaseduardocrp@gmail.com" method="POST">
+                        <input type="name" name="name" placeholder="Seu Nome" required>
+                        <input type="email" name="email" placeholder="Seu Email" required>
+                        <input type="tel" name="tel" placeholder="Seu Número" required>
+                        <textarea name="message" name="message" cols="30" rows="10" placeholder="Como posso te ajudar" required></textarea>
+                        <input type="submit" value="Enviar" class="submit" required>
+                        
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://lucaseduardocrp.github.io/thanks-page/">
+                    </form>
+                </div>
         </section>
 
         <!--Footer Section-->
@@ -255,7 +256,7 @@
 
     <!--Script Section-->
     <script src="./assets/js/main.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </body>
 </html>

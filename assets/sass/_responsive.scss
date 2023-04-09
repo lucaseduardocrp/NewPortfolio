@@ -86,6 +86,22 @@
     }
 }
 
-@media (max-width: 720px){
-    
+@media (max-width: 580px){
+    :root{
+        --h1-font: 3rem;
+        --h2-font: 3rem;
+        --h3-font: 1.6rem;
+        --h4-font: 1.6rem;
+        --p-font: 1.6rem;
+    }
+
+    .contact{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home{
+        .home-container{
+            text-align: center;
+        }
+    }
 }
