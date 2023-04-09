@@ -11,7 +11,7 @@
         }
         
         .logo-od {
-            transform: translate(-17%, -79%);
+            transform: translate(-17%, -52%);
 
             img{
             width: 340px;
@@ -30,16 +30,12 @@
         --p-font: 1.7rem;
     }
 
-   .about{
-    .about-container{
-        .about-text p{
-                margin: 20px 0 20px 0;
-            }
-    
-            .social-icons a{ 
-            font-size: 2.5rem;
-            padding: 15px;
-            } 
+   .about .about-container{
+
+        .social-icons a{ 
+        margin: 20px 15px 0 0;
+        font-size: 2.5rem;
+        padding: 15px;
         } 
     }    
 }
@@ -91,8 +87,8 @@
         --p-font: 1.6rem;
     }
 
-    .contact{
-        grid-template-columns: repeat(1, 1fr);
+    section{
+        padding: 30px 5%;
     }
 
     .home{
@@ -101,7 +97,22 @@
         }
 
         .buttons{
+            margin: 0 auto;
             flex-direction: column;
+          
+            a{
+                margin: 25px 0;
+            }
+
         }
+    }
+
+    .contact{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about .about-container .about-img img{
+        height: 480px;
+        object-fit: cover;    
     }
 }
