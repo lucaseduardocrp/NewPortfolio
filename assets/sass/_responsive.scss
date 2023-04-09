@@ -92,10 +92,6 @@
     }
 
     .home{
-        .home-container{
-            text-align: center;
-        }
-
         .buttons{
             margin: 0 auto;
             flex-direction: column;
@@ -114,5 +110,11 @@
     .about .about-container .about-img img{
         height: 480px;
         object-fit: cover;    
+    }
+
+    footer{
+        .top{
+            display: none;
+        }
     }
 }
