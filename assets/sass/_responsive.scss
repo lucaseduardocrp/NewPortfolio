@@ -11,7 +11,7 @@
         }
         
         .logo-od {
-            transform: translate(-17%, -52%);
+            transform: translate(-17%, -78%);
 
             img{
             width: 340px;
@@ -53,18 +53,11 @@
                 background: $dark-color;
                 border-bottom: 3px solid $dark-400-color;
                 text-align: left;
-                transition: all .45s ease;
 
                 a{
                     display: block;
                     margin: 17px;
                     font-size: 20px;
-                    transition: all .45s ease;
-                    color: $white-color;
-
-                    &:hover{
-                        color: $primary-color;
-                    }
                 }
             }
 

@@ -6,7 +6,7 @@ header{
     left: 0;
     z-index: 1000;
     background: $dark-color;
-    border-bottom: 1px solid transparent;    
+    border-bottom: 1px solid $dark-400-color;    
     transition: .5s;
 }
 

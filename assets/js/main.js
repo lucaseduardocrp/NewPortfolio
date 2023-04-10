@@ -1,10 +1,10 @@
-const header = document.querySelector("header");
-
 window.onload = function(){
     AOS.init({
         duration: 1500,
     });
 }
+
+const header = document.querySelector("header");
 
 let menu = document.querySelector('#mobile-menu');
 let navbar = document.querySelector('.navbar');
@@ -19,4 +19,17 @@ window.onscroll = () => {
     navbar.classList.remove('open');
 };
 
+typeWrite(document.querySelector(".typewriter"));
+
+function typeWrite(elemento) {
+    const textoArray = elemento.innerText.split("");
+    elemento.innerText = " ";
+    textoArray.forEach(function (letra, i) {
+      setTimeout(function () {
+        elemento.innerText += letra;
+      }, 75 * i);
+    });
+  }
+
+  
 

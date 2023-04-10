@@ -11,7 +11,7 @@
         position: absolute;
         right: -50px;
         top: 50%;
-        transform: translate(-13%, -45%);
+        transform: translate(-13%, -52%);
     }
 
     .buttons{
@@ -47,16 +47,31 @@
         color: $white-color; 
     }
 
-    p{
+    .typewriter{
         font-size: var(--p-font);
         line-height: 1.8;
         color: $white-color;
         margin: 40px 0px 0;
+
+        &::after {
+            content: "|";
+            margin-left: 8px;
+            opacity: 1;
+            animation: blink 1s infinite;
+            color: #ff3a5e;
+        }
     }
+    @keyframes blink {
+        0%, 100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
 
     p:nth-child(3){
         font-size: 1.8rem;
-        letter-spacing: 1px;
         margin: 15px 0px 0;
     }
 }
