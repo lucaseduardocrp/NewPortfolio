@@ -1,9 +1,3 @@
-window.onload = function(){
-    AOS.init({
-        duration: 1500,
-    });
-}
-
 const header = document.querySelector("header");
 
 let menu = document.querySelector('#mobile-menu');
