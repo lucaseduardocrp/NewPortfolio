@@ -108,8 +108,7 @@
 
     .home{
         .buttons{
-            margin: 0 auto;
-            flex-direction: column;
+            margin: 40px auto;
           
             a{
                 margin: 25px 0;
@@ -130,5 +129,11 @@
     .projects .project-container .card-box .p-img img{
         width: 342px;
         object-fit: cover;
+    }
+    .card-box{
+        &:hover{
+            transform: scale(0.9);
+            z-index: 2;
+        }
     }
 }
